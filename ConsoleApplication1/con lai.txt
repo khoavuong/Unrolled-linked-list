@@ -1,0 +1,107 @@
+d 12
+w
+i 5 5
+w
+d 9
+w
+d 9
+w
+d 9
+w
+d 9
+w
+d 0
+d 0
+d 0
+d 0
+d 0
+d 0
+d 0
+d 0
+d 0
+p
+w
+u 5
+a 1
+a 99
+a 99
+a 9
+a 11
+a 13
+a 15
+a 17
+a 19
+a 21
+a 23
+g 1
+g 3
+g 5
+g 7
+g 9
+g 10
+g 0
+s 0 10
+s 10 0
+i 0 1
+i 0 2
+i 0 3
+i 5 5
+i 6 6
+i 7 7
+i 8 8
+i 8 9
+g 0
+g 1
+g 2
+g 3
+g 4
+g 5
+g 6
+g 7
+g 8
+g 9
+g 10
+g 11
+g 12
+g 13
+f 1
+f 2
+f 99
+l 99
+l 8
+c 99
+r
+t
+d 17
+w
+d 16
+w
+d 15
+w
+d 14
+w
+d 13
+w
+d 12
+w
+i 5 5
+w
+d 9
+w
+d 9
+w
+d 9
+w
+d 9
+w
+d 0
+d 0
+d 0
+d 0
+d 0
+d 0
+d 0
+d 0
+d 0
+p
+w

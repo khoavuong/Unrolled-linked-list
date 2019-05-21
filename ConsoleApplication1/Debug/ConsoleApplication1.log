@@ -1,0 +1,616 @@
+﻿Build started 11/1/2018 9:08:34 PM.
+     1>Project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>Building with tools version "15.0".
+       Target "EnableIntermediateOutputPathMismatchWarning" skipped, due to false condition; ('$(RestoreProjectStyle)' == 'PackageReference') was evaluated as ('' == 'PackageReference').
+     1>Target "_CheckForInvalidConfigurationAndPlatform" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "SetTelemetryEnvironmentVariables" depends on it):
+       Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+       Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+       Using "Message" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Message"
+         Configuration=Debug
+       Done executing task "Message".
+       Task "Message"
+         Platform=Win32
+       Done executing task "Message".
+       Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('C:\Users\User\source\repos\ConsoleApplication1\Debug\' != '' and !HasTrailingSlash('C:\Users\User\source\repos\ConsoleApplication1\Debug\')).
+       Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+       Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('Debug\' != '' and !HasTrailingSlash('Debug\')).
+       Task "Error" skipped, due to false condition; ( '$(_InitialMSBuildProjectExtensionsPath)' != '' And '$(MSBuildProjectExtensionsPath)' != '$(_InitialMSBuildProjectExtensionsPath)' ) was evaluated as ( 'C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\obj\' != '' And 'C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\obj\' != 'C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\obj\' ).
+       Task "Warning" skipped, due to false condition; ( '$(EnableBaseIntermediateOutputPathMismatchWarning)' == 'true' And '$(_InitialBaseIntermediateOutputPath)' != '$(BaseIntermediateOutputPath)' And '$(BaseIntermediateOutputPath)' != '$(MSBuildProjectExtensionsPath)' ) was evaluated as ( '' == 'true' And 'obj\' != 'obj\' And 'obj\' != 'C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\obj\' ).
+     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "ConsoleApplication1.vcxproj".
+       Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+     1>Target "SetTelemetryEnvironmentVariables" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.Cpp.DesignTime.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "Build" depends on it):
+       Using "SetEnv" task from assembly "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll".
+       Task "SetEnv"
+         VSTEL_SolutionSessionID={65519DAF-DB6E-4BD5-9DCE-B40B33503003}
+       Done executing task "SetEnv".
+       Task "SetEnv"
+         VSTEL_CurrentSolutionBuildID=693217140
+       Done executing task "SetEnv".
+       Task "SetEnv"
+         VSTEL_ProjectID={3F8D2224-37CE-4F76-9D8B-88EC1C880D91}
+       Done executing task "SetEnv".
+     1>Done building target "SetTelemetryEnvironmentVariables" in project "ConsoleApplication1.vcxproj".
+     1>Target "_PrepareForBuild" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "Build" depends on it):
+       Task "CreateItem" skipped, due to false condition; ('%(CustomBuild.IncludeFileToTool)'!='') was evaluated as (''!='').
+     1>Done building target "_PrepareForBuild" in project "ConsoleApplication1.vcxproj".
+     1>Target "_PrepareForReferenceResolution" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "ResolveReferences" depends on it):
+       Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
+     1>Done building target "_PrepareForReferenceResolution" in project "ConsoleApplication1.vcxproj".
+       Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('main.cpp;Node.cpp;pch.cpp;UnrolledLinkedList.cpp'!='' and 'false'=='true' and '' != 'false').
+     1>Target "BeforeResolveReferences" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "ResolveReferences" depends on it):
+     1>Done building target "BeforeResolveReferences" in project "ConsoleApplication1.vcxproj".
+     1>Target "AssignProjectConfiguration" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "ResolveReferences" depends on it):
+       Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "AssignProjectConfiguration"
+       Done executing task "AssignProjectConfiguration".
+     1>Done building target "AssignProjectConfiguration" in project "ConsoleApplication1.vcxproj".
+       Target "AssignProjectConfiguration" skipped. Previously built successfully.
+     1>Target "_SplitProjectReferencesByFileExistence" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "PrepareProjectReferences" depends on it):
+       Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
+     1>Done building target "_SplitProjectReferencesByFileExistence" in project "ConsoleApplication1.vcxproj".
+     1>Target "_GetProjectReferenceTargetFrameworkProperties" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "PrepareProjectReferences" depends on it):
+       Using "MSBuild" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "MSBuild"
+       Done executing task "MSBuild".
+       Task "GetReferenceNearestTargetFrameworkTask" skipped, due to false condition; ('@(_ProjectReferenceTargetFrameworkPossibilities->Count())' != '0' and '$(ReferringTargetFrameworkForProjectReferences)' != '') was evaluated as ('0' != '0' and '.NETFramework,Version=v4.0' != '').
+     1>Done building target "_GetProjectReferenceTargetFrameworkProperties" in project "ConsoleApplication1.vcxproj".
+     1>Target "PrepareProjectReferences" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "ResolveProjectReferences" depends on it):
+     1>Done building target "PrepareProjectReferences" in project "ConsoleApplication1.vcxproj".
+       Target "_RemoveNameMetadataFromProjectReferenceItems" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+     1>Target "ResolveProjectReferences" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "ResolveReferences" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '15.0' != '10.0' and '' != '').
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '15.0' == '10.0' and '' != '').
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+       Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
+     1>Done building target "ResolveProjectReferences" in project "ConsoleApplication1.vcxproj".
+       Target "FindInvalidProjectReferences" skipped, due to false condition; ('$(FindInvalidProjectReferences)' == 'true') was evaluated as ('' == 'true').
+       Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+       Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
+       Target "ResolveProjectReferences" skipped. Previously built successfully.
+       Target "FindInvalidProjectReferences" skipped, due to false condition; ('$(FindInvalidProjectReferences)' == 'true') was evaluated as ('' == 'true').
+     1>Target "GetFrameworkPaths" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.NETFramework.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+     1>Done building target "GetFrameworkPaths" in project "ConsoleApplication1.vcxproj".
+       Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
+       Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+       Target "GetFrameworkPaths" skipped. Previously built successfully.
+     1>Target "GetReferenceAssemblyPaths" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+       Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+     1>Done building target "GetReferenceAssemblyPaths" in project "ConsoleApplication1.vcxproj".
+     1>Target "SetBuildDefaultEnvironmentVariables" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Current.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "PrepareForBuild" depends on it):
+       Task "SetEnv"
+         PATH=F:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86;C:\Program Files (x86)\Windows Kits\10\bin\10.0.17134.0\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools;F:\Visual Studio\Common7\tools;F:\Visual Studio\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;F:\Visual Studio\MSBuild\15.0\Bin;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;C:\WINDOWS\SysWow64;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\runtime\win64;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\polyspace\bin;F:\LaTex\miktex\bin\x64\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;;F:\intelFPGA_lite\16.1\modelsim_ase\win32aloem;C:\Program Files (x86)\Atmel\Flip 3.4.7\bin;
+       Done executing task "SetEnv".
+       Task "SetEnv"
+         LIB=F:\Visual Studio\VC\Tools\MSVC\14.15.26726\lib\x86;;F:\Visual Studio\VC\Tools\MSVC\14.15.26726\atlmfc\lib\x86;;F:\Visual Studio\VC\Auxiliary\VS\lib\x86;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17134.0\ucrt\x86;;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17134.0\um\x86;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\lib\um\x86;;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Lib\um\x86
+       Done executing task "SetEnv".
+       Task "SetEnv"
+         LIBPATH=F:\Visual Studio\VC\Tools\MSVC\14.15.26726\atlmfc\lib\x86;;F:\Visual Studio\VC\Tools\MSVC\14.15.26726\lib\x86;
+       Done executing task "SetEnv".
+       Task "SetEnv"
+         INCLUDE=F:\Visual Studio\VC\Tools\MSVC\14.15.26726\include;;F:\Visual Studio\VC\Tools\MSVC\14.15.26726\atlmfc\include;;F:\Visual Studio\VC\Auxiliary\VS\include;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt;;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Include\um;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Include\um;
+       Done executing task "SetEnv".
+     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "ConsoleApplication1.vcxproj".
+       Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true') was evaluated as ('' != '' and '' != 'true').
+       Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
+     1>Target "GetResolvedWinMD" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "PrepareForBuild" depends on it):
+     1>Done building target "GetResolvedWinMD" in project "ConsoleApplication1.vcxproj".
+     1>Target "PlatformPrepareForBuild" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "PrepareForBuild" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('$(_Error64bitToolsNotInstalled)' == 'true') was evaluated as ('' == 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == '') was evaluated as (''!='true' and 'true' != 'true' and 'v141' == '').
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v110') was evaluated as (''!='true' and 'true' != 'true' and 'v141' == 'v110').
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v100') was evaluated as (''!='true' and 'true' != 'true' and 'v141' == 'v100').
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v90') was evaluated as (''!='true' and 'true' != 'true' and 'v141' == 'v90').
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' != 'v90' and '$(PlatformToolset)' != 'v100' and '$(PlatformToolset)' != 'v110') was evaluated as (''!='true' and 'true' != 'true' and 'v141' != 'v90' and 'v141' != 'v100' and 'v141' != 'v110').
+     1>Done building target "PlatformPrepareForBuild" in project "ConsoleApplication1.vcxproj".
+     1>Target "_CheckWindowsSDKInstalled" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.Cpp.WindowsSDK.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "PrepareForBuild" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('$(WindowsSDKInstalled)' != 'true') was evaluated as ('true' != 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(PlatformShortName)' == 'ARM' and '$(WindowsAppContainer)' != 'true' and '$(WindowsSDKDesktopARMSupport)' != 'true') was evaluated as ('x86' == 'ARM' and 'false' != 'true' and '' != 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(PlatformShortName)' == 'ARM64' and '$(WindowsAppContainer)' != 'true' and '$(WindowsSDKDesktopARM64Support)' != 'true') was evaluated as ('x86' == 'ARM64' and 'false' != 'true' and '' != 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(WindowsAppContainer)' != 'true' and '$(WindowsSDK_Desktop_Support)' != true) was evaluated as ('false' != 'true' and 'true' != true).
+     1>Done building target "_CheckWindowsSDKInstalled" in project "ConsoleApplication1.vcxproj".
+       Target "GetFrameworkPaths" skipped. Previously built successfully.
+       Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+       Target "AssignLinkMetadata" skipped, due to false condition; ( '$(SynthesizeLinkMetadata)' == 'true' ) was evaluated as ( '' == 'true' ).
+     1>Target "SetCABuildNativeEnvironmentVariables" in file "F:\Visual Studio\MSBuild\Microsoft\VisualStudio\v15.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "PrepareForBuild" depends on it):
+       Task "SetEnv"
+         CAExcludePath=F:\Visual Studio\VC\Tools\MSVC\14.15.26726\atlmfc\include;F:\Visual Studio\VC\Tools\MSVC\14.15.26726\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Include\um;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Include\um;
+       Done executing task "SetEnv".
+     1>Done building target "SetCABuildNativeEnvironmentVariables" in project "ConsoleApplication1.vcxproj".
+     1>Target "PrepareForBuild" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)' != 'true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as ('' != 'true' and 'true' != 'true').
+       Using "MakeDir" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "MakeDir"
+       Done executing task "MakeDir".
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(WindowsAppContainer)'=='true' and '$(ConfigurationType)'!='Application' and '$(ConfigurationType)'!='DynamicLibrary' and '$(ConfigurationType)'!='StaticLibrary') was evaluated as (''!='true' and 'false'=='true' and 'Application'!='Application' and 'Application'!='DynamicLibrary' and 'Application'!='StaticLibrary').
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCToolsInstallDir)'=='' and '$(UseEnv)' != 'true' and ('$(TargetFrameworkVersion)'=='v3.5' or '$(TargetFrameworkVersion)'=='v3.0' or '$(TargetFrameworkVersion)'=='v2.0' )) was evaluated as (''!='true' and 'F:\Visual Studio\VC\Tools\MSVC\14.15.26726\'=='' and '' != 'true' and ('v4.0'=='v3.5' or 'v4.0'=='v3.0' or 'v4.0'=='v2.0' )).
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCToolsInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') was evaluated as (''!='true' and 'F:\Visual Studio\VC\Tools\MSVC\14.15.26726\'=='' and '' != 'true' and 'v141'=='v90').
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCToolsInstallDir)'=='' and '$(UseEnv)' != 'true') was evaluated as (''!='true' and 'F:\Visual Studio\VC\Tools\MSVC\14.15.26726\'=='' and '' != 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') was evaluated as (''!='true' and 'C:\Program Files (x86)\Windows Kits\10\'=='' and '' != 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(IntDirTrailingSlashWarning)'=='true') was evaluated as (''!='true' and ''=='true').
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(OutDirTrailingSlashWarning)'=='true') was evaluated as (''!='true' and ''=='true').
+       Task "VCMessage" skipped, due to false condition; ('%(CompatibilityIssues.Identity)' != '' and '$(DesignTimeBuild)'!='true') was evaluated as ('' != '' and ''!='true').
+       Using "VCMessage" task from assembly "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll".
+       Task "VCMessage"
+     1>F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (ConsoleApplication1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+       Done executing task "VCMessage".
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(IgnoreWarnIntDirInTempDetected)' != 'true' and ('$(_IntDirFullpath.StartsWith($(Tmp), true, null))' == 'true' or '$(_IntDirFullpath.StartsWith($(Temp), true, null))' == 'true' or '$(_OutDirFullpath.StartsWith($(Tmp), true, null))' == 'true' or '$(_OutDirFullpath.StartsWith($(Temp), true, null))' == 'true')) was evaluated as (''!='true' and '' != 'true' and ('False' == 'true' or 'False' == 'true' or 'False' == 'true' or 'False' == 'true')).
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)' != 'true' and '$(SpectreMitigation)' != '' and '$(SpectreMitigation)' != 'false' and (('$(_VC_Target_Library_Platform)' == 'OneCore' and !Exists('$(VC_LibraryPath_VC_x86_OneCore)')) or ('$(_VC_Target_Library_Platform)' == 'Desktop' and !Exists('$(VC_LibraryPath_VC_x86_Desktop)')))) was evaluated as ('' != 'true' and 'false' != '' and 'false' != 'false' and (('Desktop' == 'OneCore' and !Exists('F:\Visual Studio\VC\Tools\MSVC\14.15.26726\lib\onecore\x86')) or ('Desktop' == 'Desktop' and !Exists('F:\Visual Studio\VC\Tools\MSVC\14.15.26726\lib\x86')))).
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "PrepareForBuild" in project "ConsoleApplication1.vcxproj".
+       Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
+       Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('main.cpp;Node.cpp;pch.cpp;UnrolledLinkedList.cpp'!='' and 'false'=='true' and '' != 'false').
+       Target "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+     1>Target "ResolveSDKReferences" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+       Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+     1>Done building target "ResolveSDKReferences" in project "ConsoleApplication1.vcxproj".
+       Target "ResolveSDKReferences" skipped. Previously built successfully.
+     1>Target "ExpandSDKReferences" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+       Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+     1>Done building target "ExpandSDKReferences" in project "ConsoleApplication1.vcxproj".
+       Target "ResolveNuGetPackageAssets" skipped, due to false condition; ('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)')) was evaluated as ('true' == 'true' and exists('obj\project.assets.json')).
+       Target "FakesGenerateBeforeBuild" skipped, due to false condition; (@(Fakes) != '' AND $(BuildingProject)) was evaluated as ( != '' AND true).
+       Target "ImplicitlyExpandNETStandardFacades" skipped, due to false condition; ('$(ImplicitlyExpandNETStandardFacades)' == 'true') was evaluated as ('' == 'true').
+       Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+       Target "ImplicitlyExpandNETStandardFacades" skipped, due to false condition; ('$(ImplicitlyExpandNETStandardFacades)' == 'true') was evaluated as ('' == 'true').
+     1>Target "_HandlePackageFileConflicts" in file "F:\Visual Studio\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+       Using "ResolvePackageFileConflicts" task from assembly "F:\Visual Studio\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\tools\net46\Microsoft.NET.Build.Extensions.Tasks.dll".
+       Task "ResolvePackageFileConflicts"
+       Done executing task "ResolvePackageFileConflicts".
+     1>Done building target "_HandlePackageFileConflicts" in project "ConsoleApplication1.vcxproj".
+     1>Target "ResolveAssemblyReferences" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "ResolveReferences" depends on it):
+       Task "ResolveAssemblyReference" skipped, due to false condition; ('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '') was evaluated as (''!='' or ''!='' or '' != '').
+     1>Done building target "ResolveAssemblyReferences" in project "ConsoleApplication1.vcxproj".
+       Target "GenerateBindingRedirects" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true') was evaluated as ('' == 'true' and 'true' == 'true').
+       Target "_RemoveZipFileSuggestedRedirect" skipped, due to false condition; ('$(_TargetFrameworkVersionWithoutV)' >= '4.7.1' And '$(AllowZipFileRedirect)' != 'true') was evaluated as ('4.0' >= '4.7.1' And '' != 'true').
+       Target "GenerateBindingRedirectsUpdateAppConfig" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and Exists('$(_GenerateBindingRedirectsIntermediateAppConfig)')) was evaluated as ('' == 'true' and 'true' == 'true' and Exists('Debug\main.exe.config')).
+       Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+     1>Target "AfterResolveReferences" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "ResolveReferences" depends on it):
+     1>Done building target "AfterResolveReferences" in project "ConsoleApplication1.vcxproj".
+       Target "ImplicitlyExpandDesignTimeFacades" skipped, due to false condition; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') was evaluated as ('' == 'true').
+       Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+     1>Target "ResolveReferences" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "Build" depends on it):
+     1>Done building target "ResolveReferences" in project "ConsoleApplication1.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "PrepareForBuild" skipped. Previously built successfully.
+     1>Target "InitializeBuildStatus" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "Build" depends on it):
+       Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "ReadLinesFromFile"
+       Done executing task "ReadLinesFromFile".
+       Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "WriteLinesToFile"
+       Done executing task "WriteLinesToFile".
+       Using "Touch" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Touch"
+         Creating "Debug\main.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       Done executing task "Touch".
+     1>Done building target "InitializeBuildStatus" in project "ConsoleApplication1.vcxproj".
+       Target "PrepareProjectReferences" skipped. Previously built successfully.
+     1>Target "BuildGenerateSourcesTraverse" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "BuildGenerateSources" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != '' and '' == 'true').
+     1>Done building target "BuildGenerateSourcesTraverse" in project "ConsoleApplication1.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "BeforeBuildGenerateSources" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "BeforeBuildGenerateSources" in project "ConsoleApplication1.vcxproj".
+     1>Target "PreBuildEvent" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+       Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+       Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
+     1>Done building target "PreBuildEvent" in project "ConsoleApplication1.vcxproj".
+       Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+       Target "FxExport" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
+       Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
+       Target "_CreateCopyFileItems" skipped, due to false condition; ('@(CopyFileToFolders)' != '') was evaluated as ('' != '').
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "InitializeBuildStatus" skipped. Previously built successfully.
+       Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+       Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true') was evaluated as ('' != '' and '' != 'true').
+     1>Target "_SelectedFiles" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "CopyFileToFolders" depends on it):
+     1>Done building target "_SelectedFiles" in project "ConsoleApplication1.vcxproj".
+     1>Target "CopyFileToFolders" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+       Using "GetOutOfDateItems" task from assembly "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll".
+       Task "GetOutOfDateItems"
+       Done executing task "GetOutOfDateItems".
+       Task "Copy" skipped, due to false condition; ('@(_OutOfDateCopyFile)' != '') was evaluated as ('' != '').
+     1>Done building target "CopyFileToFolders" in project "ConsoleApplication1.vcxproj".
+       Target "Xsd" skipped, due to false condition; ('@(Xsd)' != '') was evaluated as ('' != '').
+     1>Target "_Xsd" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "_Xsd" in project "ConsoleApplication1.vcxproj".
+     1>Target "MakeDirsForMidl" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_Midl" depends on it):
+       Task "Makedir"
+       Done executing task "Makedir".
+     1>Done building target "MakeDirsForMidl" in project "ConsoleApplication1.vcxproj".
+       Target "Midl" skipped, due to false condition; ('@(Midl)' != '') was evaluated as ('' != '').
+       Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+       Target "FxExport" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
+       Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
+     1>Target "ComputeMIDLGeneratedCompileInputs" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_Midl" depends on it):
+     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "ConsoleApplication1.vcxproj".
+     1>Target "AfterMidl" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_Midl" depends on it):
+     1>Done building target "AfterMidl" in project "ConsoleApplication1.vcxproj".
+     1>Target "_Midl" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "_Midl" in project "ConsoleApplication1.vcxproj".
+     1>Target "AfterBuildGenerateSources" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "AfterBuildGenerateSources" in project "ConsoleApplication1.vcxproj".
+     1>Target "AfterBuildGenerateSourcesEvent" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "AfterBuildGenerateSourcesEvent" in project "ConsoleApplication1.vcxproj".
+     1>Target "_BuildGenerateSourcesAction" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "BuildGenerateSources" depends on it):
+     1>Done building target "_BuildGenerateSourcesAction" in project "ConsoleApplication1.vcxproj".
+     1>Target "BuildGenerateSources" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "Build" depends on it):
+     1>Done building target "BuildGenerateSources" in project "ConsoleApplication1.vcxproj".
+       Target "PrepareProjectReferences" skipped. Previously built successfully.
+     1>Target "BuildCompileTraverse" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "BuildCompile" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+     1>Done building target "BuildCompileTraverse" in project "ConsoleApplication1.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "BeforeClCompile" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_ClCompile" depends on it):
+     1>Done building target "BeforeClCompile" in project "ConsoleApplication1.vcxproj".
+       Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+     1>Target "ComputeCLInputPDBName" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_ClCompile" depends on it):
+     1>Done building target "ComputeCLInputPDBName" in project "ConsoleApplication1.vcxproj".
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "ComputeReferenceCLInput" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_ClCompile" depends on it):
+       Task "WriteLinesToFile" skipped, due to false condition; (('@(_ReferenceCopyLocalPaths)'!='') and '$(DesignTimeBuild)' != 'true') was evaluated as ((''!='') and '' != 'true').
+       Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
+     1>Done building target "ComputeReferenceCLInput" in project "ConsoleApplication1.vcxproj".
+     1>Target "WarnCompileDuplicatedFilename" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_ClCompile" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'main.cpp' != 'main.cpp' and 'Debug\' == 'Debug\').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'Node.cpp' != 'Node.cpp' and 'Debug\' == 'Debug\').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'pch.cpp' != 'pch.cpp' and 'Debug\' == 'Debug\').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'UnrolledLinkedList.cpp' != 'UnrolledLinkedList.cpp' and 'Debug\' == 'Debug\').
+     1>Done building target "WarnCompileDuplicatedFilename" in project "ConsoleApplication1.vcxproj".
+     1>Target "FixupCLCompileOptions" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_ClCompile" depends on it):
+     1>Done building target "FixupCLCompileOptions" in project "ConsoleApplication1.vcxproj".
+     1>Target "MakeDirsForCl" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_ClCompile" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForCl" in project "ConsoleApplication1.vcxproj".
+       Target "_SelectedFiles" skipped. Previously built successfully.
+       Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+       Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+       Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+       Target "WarnCompileDuplicatedFilename" skipped. Previously built successfully.
+       Target "FixupCLCompileOptions" skipped. Previously built successfully.
+       Target "_SelectedFiles" skipped. Previously built successfully.
+     1>Target "SelectCustomBuild" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "SelectClCompile" depends on it):
+     1>Done building target "SelectCustomBuild" in project "ConsoleApplication1.vcxproj".
+     1>Target "SelectClCompile" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "ClCompile" depends on it):
+     1>Done building target "SelectClCompile" in project "ConsoleApplication1.vcxproj".
+       Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
+       Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('main.cpp;Node.cpp;pch.cpp;UnrolledLinkedList.cpp' != '' and 'false' == 'True').
+     1>Target "ClCompile" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_ClCompile" depends on it):
+       Task "Delete" skipped, due to false condition; ('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'None' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName))) was evaluated as ('EditAndContinue' != '' and 'EditAndContinue' != 'None' and 'EditAndContinue' != 'OldStyle' and 'Debug\vc141.pdb' != '' and !Exists(Debug\vc141.pdb)).
+       Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true' and '%(ClCompile.CompilerIteration)' == '') was evaluated as ('Use' == 'Create' and ''!='true' and '' == '').
+       Using "CL" task from assembly "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll".
+       Task "CL"
+         Read Tracking Logs:
+         	Debug\main.tlog\CL.read.1.tlog
+         Outputs for C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\PCH.CPP:
+         	C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\DEBUG\PCH.OBJ
+         	C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\DEBUG\MAIN.PCH
+         All outputs are up-to-date.
+       Done executing task "CL".
+       Task "CL"
+         Using cached input dependency table built from:
+         	C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\Debug\main.tlog\CL.read.1.tlog
+         Outputs for C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\MAIN.CPP|C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\NODE.CPP|C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\UNROLLEDLINKEDLIST.CPP:
+         	C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\DEBUG\MAIN.OBJ
+         	C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\DEBUG\NODE.OBJ
+         	C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\DEBUG\UNROLLEDLINKEDLIST.OBJ
+         UnrolledLinkedList.cpp will be compiled because C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\UnrolledLinkedList.cpp was modified at 11/1/2018 9:08:33 PM.
+         Outputs for C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\UNROLLEDLINKEDLIST.CPP:
+         	C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\DEBUG\UNROLLEDLINKEDLIST.OBJ
+         Write Tracking Logs:
+         	Debug\main.tlog\CL.write.1.tlog
+         Environment Variables passed to tool:
+           VS_UNICODE_OUTPUT=1436
+         F:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"pch.h" /Fp"Debug\main.pch" /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt UnrolledLinkedList.cpp
+         Tracking command:
+         F:\Visual Studio\MSBuild\15.0\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\Debug\main.tlog /r C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\UNROLLEDLINKEDLIST.CPP /b MSBuildConsole_CancelEvent5c9fafec5c05434a8938304871d5583a  /c "F:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\CL.exe"  /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"pch.h" /Fp"Debug\main.pch" /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt UnrolledLinkedList.cpp
+         UnrolledLinkedList.cpp
+       Done executing task "CL".
+       Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' != 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true' and '%(ClCompile.CompilerIteration)' == '' and @(ClCompile) != '') was evaluated as ('Create' != 'Create' and ''!='true' and '' == '' and pch.cpp != '').
+     1>Done building target "ClCompile" in project "ConsoleApplication1.vcxproj".
+       Target "RunSelectedFileNativeCodeAnalysis" skipped, due to false condition; ('$(RunCppAnalysis)'=='true' and '$(SelectedFiles)'!='') was evaluated as ('false'=='true' and ''!='').
+       Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('main.cpp;Node.cpp;pch.cpp;UnrolledLinkedList.cpp' != '' and 'false' == 'True').
+     1>Target "AfterClCompile" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_ClCompile" depends on it):
+     1>Done building target "AfterClCompile" in project "ConsoleApplication1.vcxproj".
+     1>Target "_ClCompile" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_BuildCompileAction" depends on it):
+     1>Done building target "_ClCompile" in project "ConsoleApplication1.vcxproj".
+       Target "_ResGen" skipped, due to false condition; ('@(EmbeddedResource)'!='') was evaluated as (''!='').
+     1>Target "BeforeResourceCompile" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_ResourceCompile" depends on it):
+     1>Done building target "BeforeResourceCompile" in project "ConsoleApplication1.vcxproj".
+     1>Target "MakeDirsForResourceCompile" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_ResourceCompile" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForResourceCompile" in project "ConsoleApplication1.vcxproj".
+       Target "ResourceCompile" skipped, due to false condition; ('@(ResourceCompile)' != '') was evaluated as ('' != '').
+     1>Target "AfterResourceCompile" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_ResourceCompile" depends on it):
+     1>Done building target "AfterResourceCompile" in project "ConsoleApplication1.vcxproj".
+     1>Target "_ResourceCompile" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_BuildCompileAction" depends on it):
+     1>Done building target "_ResourceCompile" in project "ConsoleApplication1.vcxproj".
+       Target "_ImpLib" skipped, due to false condition; ('$(ImpLibCompiled)' == 'true') was evaluated as ('' == 'true').
+       Target "_Lib" skipped, due to false condition; ('$(LibCompiled)' == 'true') was evaluated as ('' == 'true').
+     1>Target "AfterBuildCompileEvent" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_BuildCompileAction" depends on it):
+     1>Done building target "AfterBuildCompileEvent" in project "ConsoleApplication1.vcxproj".
+     1>Target "_BuildCompileAction" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "BuildCompile" depends on it):
+     1>Done building target "_BuildCompileAction" in project "ConsoleApplication1.vcxproj".
+     1>Target "BuildCompile" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "Build" depends on it):
+     1>Done building target "BuildCompile" in project "ConsoleApplication1.vcxproj".
+       Target "PrepareProjectReferences" skipped. Previously built successfully.
+     1>Target "BuildLinkTraverse" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "BuildLink" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+     1>Done building target "BuildLinkTraverse" in project "ConsoleApplication1.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "ComputeLegacyManifestEmbedding" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_BuildLinkAction" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('$(RevertManifestEmbedding)' == 'true' and '$(_LegacyManifestEmbeddingDebug)' == 'true') was evaluated as ('' == 'true' and '' == 'true').
+     1>Done building target "ComputeLegacyManifestEmbedding" in project "ConsoleApplication1.vcxproj".
+     1>Target "BeforeLink" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_Link" depends on it):
+     1>Done building target "BeforeLink" in project "ConsoleApplication1.vcxproj".
+     1>Target "ComputeRCOutputs" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "ComputeRCGeneratedLinkInputs" depends on it):
+     1>Done building target "ComputeRCOutputs" in project "ConsoleApplication1.vcxproj".
+     1>Target "ComputeRCGeneratedLinkInputs" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeRCGeneratedLinkInputs" in project "ConsoleApplication1.vcxproj".
+     1>Target "ComputeManifestGeneratedLinkerInputs" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeManifestGeneratedLinkerInputs" in project "ConsoleApplication1.vcxproj".
+     1>Target "ComputeCustomBuildOutput" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_Link" depends on it):
+       Task "CreateItem" skipped, due to false condition; ('%(CustomBuildOutputs.OutputItemType)'!='') was evaluated as (''!='').
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "ComputeCustomBuildOutput" in project "ConsoleApplication1.vcxproj".
+       Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+       Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+       Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+       Target "WarnCompileDuplicatedFilename" skipped. Previously built successfully.
+       Target "FixupCLCompileOptions" skipped. Previously built successfully.
+     1>Target "ComputeCLOutputs" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "ComputeCLGeneratedLinkInputs" depends on it):
+     1>Done building target "ComputeCLOutputs" in project "ConsoleApplication1.vcxproj".
+     1>Target "ComputeCLGeneratedLinkInputs" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeCLGeneratedLinkInputs" in project "ConsoleApplication1.vcxproj".
+     1>Target "ComputeLinkInputsFromProject" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeLinkInputsFromProject" in project "ConsoleApplication1.vcxproj".
+       Target "ComputeReferenceLinkInputs" skipped, due to false condition; (@(ProjectReference) != '') was evaluated as ( != '').
+     1>Target "ComputeManifestInputsTargets" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeManifestInputsTargets" in project "ConsoleApplication1.vcxproj".
+       Target "ManifestResourceCompile" skipped, due to false condition; ('$(EmbedManifestBy)' == 'LINK' and '@(Manifest)' != '') was evaluated as ('LINK' == 'LINK' and '' != '').
+       Target "AssignWinFXEmbeddedResource" skipped, due to false condition; ('@(WinFXEmbeddedResource)' != '') was evaluated as ('' != '').
+     1>Target "AssignTargetPaths" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "PrepareResourceNames" depends on it):
+       Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and ''=='.manifest').
+     1>Done building target "AssignTargetPaths" in project "ConsoleApplication1.vcxproj".
+       Target "AssignTargetPaths" skipped. Previously built successfully.
+     1>Target "SplitResourcesByCulture" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "PrepareResourceNames" depends on it):
+       Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
+       Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
+       Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
+       Task "Warning" skipped, due to false condition; ('@(NonResxWithNoCulture)'!='') was evaluated as (''!='').
+       Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "AssignCulture"
+       Done executing task "AssignCulture".
+     1>Done building target "SplitResourcesByCulture" in project "ConsoleApplication1.vcxproj".
+       Target "CreateManifestResourceNames" skipped, due to false condition; ('@(EmbeddedResource)' != '') was evaluated as ('' != '').
+     1>Target "CreateCustomManifestResourceNames" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "PrepareResourceNames" depends on it):
+     1>Done building target "CreateCustomManifestResourceNames" in project "ConsoleApplication1.vcxproj".
+     1>Target "PrepareResourceNames" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_Link" depends on it):
+     1>Done building target "PrepareResourceNames" in project "ConsoleApplication1.vcxproj".
+     1>Target "MakeDirsForLink" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_Link" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForLink" in project "ConsoleApplication1.vcxproj".
+     1>Target "DoLinkOutputFilesMatch" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_Link" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' == '') was evaluated as ('C:\Users\User\source\repos\ConsoleApplication1\Debug\main.exe' == '').
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') was evaluated as ('C:\Users\User\source\repos\ConsoleApplication1\Debug\main.exe' != '' and 'C:\Users\User\source\repos\ConsoleApplication1\Debug\main.exe' != 'C:\Users\User\source\repos\ConsoleApplication1\Debug\main.exe').
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Extension)' != '' and '%(_OutputFileFromLink.Extension)' != '$(TargetExt)') was evaluated as ('C:\Users\User\source\repos\ConsoleApplication1\Debug\main.exe' != '' and '.exe' != '' and '.exe' != '.exe').
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Filename)' != '' and '%(_OutputFileFromLink.Filename)' != '$(TargetName)') was evaluated as ('C:\Users\User\source\repos\ConsoleApplication1\Debug\main.exe' != '' and 'main' != '' and 'main' != 'main').
+       Task "VCMessage" skipped, due to false condition; ('%(Link.MinimumRequiredVersion)' != '' and ('%(Link.Subsystem)' == '' or '%(Link.Subsystem)' == 'NotSet')) was evaluated as ('' != '' and ('Console' == '' or 'Console' == 'NotSet')).
+     1>Done building target "DoLinkOutputFilesMatch" in project "ConsoleApplication1.vcxproj".
+     1>Target "PreLinkEvent" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_Link" depends on it):
+       Task "Message" skipped, due to false condition; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+       Task "Exec" skipped, due to false condition; ('%(PreLinkEvent.Command)' != '') was evaluated as ('' != '').
+     1>Done building target "PreLinkEvent" in project "ConsoleApplication1.vcxproj".
+     1>Target "ComputeLinkSwitches" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "Link" depends on it):
+     1>Done building target "ComputeLinkSwitches" in project "ConsoleApplication1.vcxproj".
+     1>Target "Link" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_Link" depends on it):
+       Using "Link" task from assembly "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll".
+       Task "Link"
+         Write Tracking Logs:
+         	Debug\main.tlog\link.write.1.tlog
+         Read Tracking Logs:
+         	Debug\main.tlog\link.read.1.tlog
+         Outputs for C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\DEBUG\MAIN.OBJ|C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\DEBUG\NODE.OBJ|C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\DEBUG\PCH.OBJ|C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\DEBUG\UNROLLEDLINKEDLIST.OBJ:
+         	C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\DEBUG\MAIN.EXE
+         	C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\DEBUG\MAIN.ILK
+         	C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\DEBUG\MAIN.PDB
+         Inputs for C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\DEBUG\MAIN.OBJ|C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\DEBUG\NODE.OBJ|C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\DEBUG\PCH.OBJ|C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\DEBUG\UNROLLEDLINKEDLIST.OBJ:
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17134.0\UM\X86\KERNEL32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17134.0\UM\X86\USER32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17134.0\UM\X86\GDI32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17134.0\UM\X86\WINSPOOL.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17134.0\UM\X86\COMDLG32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17134.0\UM\X86\ADVAPI32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17134.0\UM\X86\SHELL32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17134.0\UM\X86\OLE32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17134.0\UM\X86\OLEAUT32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17134.0\UM\X86\UUID.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17134.0\UM\X86\ODBC32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17134.0\UM\X86\ODBCCP32.LIB
+         	C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\DEBUG\MAIN.OBJ
+         	C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\DEBUG\NODE.OBJ
+         	C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\DEBUG\PCH.OBJ
+         	C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\DEBUG\UNROLLEDLINKEDLIST.OBJ
+         	C:\WINDOWS\SYSTEM32\TZRES.DLL
+         	C:\WINDOWS\GLOBALIZATION\SORTING\SORTDEFAULT.NLS
+         	F:\VISUAL STUDIO\VC\TOOLS\MSVC\14.15.26726\LIB\X86\MSVCPRTD.LIB
+         	F:\VISUAL STUDIO\VC\TOOLS\MSVC\14.15.26726\LIB\X86\MSVCRTD.LIB
+         	F:\VISUAL STUDIO\VC\TOOLS\MSVC\14.15.26726\LIB\X86\OLDNAMES.LIB
+         	F:\VISUAL STUDIO\VC\TOOLS\MSVC\14.15.26726\LIB\X86\VCRUNTIMED.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17134.0\UCRT\X86\UCRTD.LIB
+         	F:\VISUAL STUDIO\VC\TOOLS\MSVC\14.15.26726\BIN\HOSTX86\X86\MSPDBSRV.EXE
+         Source compilation required: input C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\DEBUG\UNROLLEDLINKEDLIST.OBJ is newer than output C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\DEBUG\MAIN.PDB.
+         Environment Variables passed to tool:
+           VS_UNICODE_OUTPUT=1512
+         F:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\source\repos\ConsoleApplication1\Debug\main.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\User\source\repos\ConsoleApplication1\Debug\main.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\source\repos\ConsoleApplication1\Debug\main.lib" /MACHINE:X86 Debug\main.obj
+         Debug\Node.obj
+         Debug\pch.obj
+         Debug\UnrolledLinkedList.obj
+         Tracking command:
+         F:\Visual Studio\MSBuild\15.0\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\Debug\main.tlog /r "C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\DEBUG\MAIN.OBJ|C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\DEBUG\NODE.OBJ|C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\DEBUG\PCH.OBJ|C:\USERS\USER\SOURCE\REPOS\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\DEBUG\UNROLLEDLINKEDLIST.OBJ" /b MSBuildConsole_CancelEventb3a6d8635ac44ebe8522bf6ffbf60f96  /c "F:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\Users\User\source\repos\ConsoleApplication1\Debug\main.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\User\source\repos\ConsoleApplication1\Debug\main.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\source\repos\ConsoleApplication1\Debug\main.lib" /MACHINE:X86 Debug\main.obj
+         Debug\Node.obj
+         Debug\pch.obj
+         Debug\UnrolledLinkedList.obj
+       Done executing task "Link".
+       Task "Message"
+         ConsoleApplication1.vcxproj -> C:\Users\User\source\repos\ConsoleApplication1\Debug\main.exe
+       Done executing task "Message".
+       Task "VCMessage" skipped, due to false condition; (('$(EmbedManifestBy)' != 'LINK' or '$(LegacyManifestEmbedding)' != 'true' or '$(LinkSkippedExecution)' == 'true') and
+                    %(Link.GenerateDebugInformation) == 'DebugFastLink' and %(Link.ProgramDataBaseFileName) != '') was evaluated as (('LINK' != 'LINK' or '' != 'true' or 'False' == 'true') and
+                    DebugFastLink == 'DebugFastLink' and  != '').
+       Task "VCMessage" skipped, due to false condition; (('$(EmbedManifestBy)' != 'LINK' or '$(LegacyManifestEmbedding)' != 'true' or '$(LinkSkippedExecution)' == 'true') and
+                    %(Link.GenerateDebugInformation) == 'true' and %(Link.ProgramDataBaseFileName) != '') was evaluated as (('LINK' != 'LINK' or '' != 'true' or 'False' == 'true') and
+                    DebugFastLink == 'true' and  != '').
+     1>Done building target "Link" in project "ConsoleApplication1.vcxproj".
+       Target "MetaGenInputsOutputs" skipped, due to false condition; ('$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('false' == 'True').
+       Target "ComputeMetaGenInputs" skipped, due to false condition; ('$(CLRSupport)'!='' and '$(CLRSupport)'!='false') was evaluated as ('false'!='' and 'false'!='false').
+       Target "MetaGen" skipped, due to false condition; ('@(MetaGen)' != '') was evaluated as ('' != '').
+     1>Target "ComputeLinkImportLibraryOutputsForClean" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_Link" depends on it):
+       Task "WriteLinesToFile" skipped, due to false condition; ('@(_LinkSecondaryOutput)' != '') was evaluated as ('' != '').
+     1>Done building target "ComputeLinkImportLibraryOutputsForClean" in project "ConsoleApplication1.vcxproj".
+     1>Target "AfterLink" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_Link" depends on it):
+     1>Done building target "AfterLink" in project "ConsoleApplication1.vcxproj".
+     1>Target "_Link" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_Link" in project "ConsoleApplication1.vcxproj".
+     1>Target "_ALink" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_ALink" in project "ConsoleApplication1.vcxproj".
+       Target "ComputeLegacyManifestEmbedding" skipped. Previously built successfully.
+     1>Target "_Manifest" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_BuildLinkAction" depends on it):
+       Task "CallTarget" skipped, due to false condition; ('$(LegacyManifestEmbedding)' == 'true') was evaluated as ('' == 'true').
+     1>Done building target "_Manifest" in project "ConsoleApplication1.vcxproj".
+     1>Target "RegisterOutput" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_BuildLinkAction" depends on it):
+       Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'!='true').
+       Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'=='true').
+       Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('Application'=='Application' and 'false'=='true' and 'false'!='true').
+       Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('Application'=='Application' and 'false'=='true' and 'false'=='true').
+       Task "VCMessage" skipped, due to false condition; ('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0') was evaluated as ('' != '' and '' != '0').
+     1>Done building target "RegisterOutput" in project "ConsoleApplication1.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "ResolvedXDCMake" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_XdcMake" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') was evaluated as ('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true').
+     1>Done building target "ResolvedXDCMake" in project "ConsoleApplication1.vcxproj".
+     1>Target "ComputeCLCompileGeneratedXDCFiles" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_XdcMake" depends on it):
+     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "ConsoleApplication1.vcxproj".
+     1>Target "MakeDirsForXdcMake" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_XdcMake" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForXdcMake" in project "ConsoleApplication1.vcxproj".
+       Target "XdcMake" skipped, due to false condition; ('@(XdcMake)' != '') was evaluated as ('' != '').
+     1>Target "_XdcMake" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_XdcMake" in project "ConsoleApplication1.vcxproj".
+     1>Target "ComputeCLCompileGeneratedSbrFiles" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_BscMake" depends on it):
+     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "ConsoleApplication1.vcxproj".
+     1>Target "MakeDirsForBscMake" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_BscMake" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForBscMake" in project "ConsoleApplication1.vcxproj".
+       Target "BscMake" skipped, due to false condition; ('@(BscMake)' != '') was evaluated as ('' != '').
+       Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+     1>Target "_BscMake" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_BscMake" in project "ConsoleApplication1.vcxproj".
+     1>Target "_GenerateSatelliteAssemblyInputs" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
+       Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+       Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "ConsoleApplication1.vcxproj".
+       Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+       Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
+     1>Target "CreateSatelliteAssemblies" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "CreateSatelliteAssemblies" in project "ConsoleApplication1.vcxproj".
+     1>Target "_Appverifier" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_Appverifier" in project "ConsoleApplication1.vcxproj".
+     1>Target "_Deploy" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_Deploy" in project "ConsoleApplication1.vcxproj".
+       Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+       Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
+       Target "AssignTargetPaths" skipped. Previously built successfully.
+       Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+       Target "_GetProjectReferenceTargetFrameworkProperties" skipped. Previously built successfully.
+     1>Target "GetCopyToOutputDirectoryXamlAppDefs" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+     1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "ConsoleApplication1.vcxproj".
+     1>Target "GetCopyToOutputDirectoryItems" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+     1>Done building target "GetCopyToOutputDirectoryItems" in project "ConsoleApplication1.vcxproj".
+       Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+       Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+     1>Target "_CopySourceItemsToOutputDirectory" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+     1>Done building target "_CopySourceItemsToOutputDirectory" in project "ConsoleApplication1.vcxproj".
+       Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
+       Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+     1>Target "_CheckForCompileOutputs" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+     1>Done building target "_CheckForCompileOutputs" in project "ConsoleApplication1.vcxproj".
+       Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+     1>Target "CopyFilesToOutputDirectory" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "PrepareForRun" depends on it):
+       Task "Copy" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') was evaluated as ('true' == 'true' and 'true' != 'true').
+       Task "CopyRefAssembly" skipped, due to false condition; ('$(ProduceReferenceAssembly)' == 'true' and '$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') was evaluated as ('false' == 'true' and 'true' == 'true' and 'true' != 'true').
+       Task "Message" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)'!='true') was evaluated as ('true' == 'true' and 'true'!='true').
+       Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
+       Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+       Task "Copy" skipped, due to false condition; ('$(_DebugSymbolsProduced)'=='true' and '$(SkipCopyingSymbolsToOutputDirectory)' != 'true' and '$(CopyOutputSymbolsToOutputDirectory)'=='true') was evaluated as ('false'=='true' and '' != 'true' and 'true'=='true').
+       Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true') was evaluated as ('false'=='true').
+       Task "Copy" skipped, due to false condition; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') was evaluated as ('' != '').
+       Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
+       Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
+       Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
+     1>Done building target "CopyFilesToOutputDirectory" in project "ConsoleApplication1.vcxproj".
+     1>Target "PrepareForRun" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "PrepareForRun" in project "ConsoleApplication1.vcxproj".
+       Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+     1>Target "PostBuildEvent" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "_BuildLinkAction" depends on it):
+       Task "Message" skipped, due to false condition; ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+       Task "Exec" skipped, due to false condition; ('%(PostBuildEvent.Command)' != '') was evaluated as ('' != '').
+     1>Done building target "PostBuildEvent" in project "ConsoleApplication1.vcxproj".
+     1>Target "_BuildLinkAction" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "BuildLink" depends on it):
+     1>Done building target "_BuildLinkAction" in project "ConsoleApplication1.vcxproj".
+     1>Target "BuildLink" in file "F:\Visual Studio\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "Build" depends on it):
+     1>Done building target "BuildLink" in project "ConsoleApplication1.vcxproj".
+     1>Target "AfterBuild" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "Build" depends on it):
+     1>Done building target "AfterBuild" in project "ConsoleApplication1.vcxproj".
+     1>Target "FinalizeBuildStatus" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (target "Build" depends on it):
+       Using "Delete" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Delete"
+         Deleting file "Debug\main.tlog\unsuccessfulbuild".
+       Done executing task "Delete".
+       Task "Touch"
+         Touching "Debug\main.tlog\main.lastbuildstate".
+       Done executing task "Touch".
+     1>Done building target "FinalizeBuildStatus" in project "ConsoleApplication1.vcxproj".
+       Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+       Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+     1>Target "Build" in file "F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" from project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (entry point):
+     1>Done building target "Build" in project "ConsoleApplication1.vcxproj".
+     1>Done Building Project "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+       "C:\Users\User\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target) (1) ->
+       (PrepareForBuild target) -> 
+         F:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (ConsoleApplication1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.81
